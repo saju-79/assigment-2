@@ -24,7 +24,7 @@
 
   }
   .mubin{
-    padding:  50px 280px;
+    margin:  50px 140px 50px 140px ;
   }
   .saju{
     color: var(--bkack-1);
@@ -37,6 +37,7 @@
     color:var(--whait);
     width: 197px;
     height: 50px;
+    font-size: 20px;
     border-radius: 12px;
     padding: 10px 10px ;
     border: none;
@@ -47,6 +48,8 @@
   .nav{
     display: flex;
     justify-content: space-between;
+    width: 1158px;
+    /* height: 575px; */
   }
   .school{
     font-size: 32px;
@@ -111,10 +114,10 @@
     display: flex;
     width: 1158px;
     height: 575px;
-    gap: 50px 50px;
+    gap: 80px 80px;
 }
 .b{
-    width: 670px;
+    width: 640px;
     height: 331px;
     padding:  150px  20px 150px 20px ;
 
@@ -129,7 +132,8 @@
     font-weight: bold;
     justify-content: center;
     align-items:center ;
-    text-align: center
+    text-align: center;
+    padding: 0px 0px 80px 0px;
 }
 .main-box{
     display: flex;
@@ -191,58 +195,103 @@ color: #8700FF;
     height: 630px;
     width: 1160px;
     display: flex;
+    background-color: rgb(224, 219, 210);
+    bottom: 80px;
     
-
-    gap: 20px;
+    
+    gap: 19px;
 }
 .main-bar-1{
     width: 540px;
     height: 630px;
-    background-color: rgb(247, 234, 234);
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 19px;
-
+    /* text-align: center; */
+    justify-content: left;
+    
+    background-color: var(--whait);
 }
 .story-1{
     background-image: url(../B11-A2-Kids-School/assets/story-1.png);
     width: 540px;
     height: 337px;
     border-radius: 16px;
-    
-
-
 }
+.story-3{
+    background-image:url(../B11-A2-Kids-School/assets/story-3.png) ;
+    width: 291px;
+    height: 177px;
+    border-radius: 19px;
+}
+.story-4{
+    background-image:url(../B11-A2-Kids-School/assets/story-4.png) ;
+    width: 291px;
+    height: 177px;
+    border-radius: 19px;
+}
+.story-5{
+    background-image:url(../B11-A2-Kids-School/assets/story-5.png) ;
+    width: 291px;
+    height: 177px;
+    border-radius: 19px;
+}
+
 .main-bar-2{
     width: 601px;
     height: 622px;
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(2 , 1fr);
+    row-gap: 19px;
+    column-gap: 19px;
 }
 .text-5{
     color: var(--black-0);
     font-size: 24px;
+    padding: 0px 25px;
+}
+.text-padding{
+    
+    padding: 0px 25px;
 }
 .button-2{
-    background-color: #3CD8E8;
+    background-color:#3CD8E8;
     position: relative;
     left: 30px;
     bottom: 30px;
     width: 174px;
     height: 47px;
     border-radius: 47px;
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    
     
 }
 .button-3{
- background-color: #95B226;
- color: var(--whait);
- width: 174px;
- height: 38px;
+    background-color: #95B226;
+    color: var(--whait);
+    width: 174px;
+    height: 38px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    
 }
 .main-bar-3{
+    justify-content:left ;
+    border-radius: 19px;
     width: 290px;
     height: 301px;
-    background-color: red;
+    background-color: var(--whait)
+    
+}
+.button-4{
+    background-color: #5D58F0;
+    border: none;
+}
+.button-5{
+    width: 127px;
+    height: 38px;
+    border: none;
 }
 .story-2{
     background-image: url(../B11-A2-Kids-School/assets/story-2.png);
@@ -253,4 +302,70 @@ color: #8700FF;
 .text-7{
     font-size: 15px;
     color: var(--black-0);
+    
+    justify-content:left ;
+    padding: 0px 25px;
+    /* text-align: center; */
+}
+.button-6{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    
+    
+}
+.view-button{
+    position: relative;
+    bottom: 60px;
+    left: 480px;
+    top: 80px;
+   
+}
+.footer{
+    width: 1439px;
+    height: 519px;
+    background-color: #01ACFD;
+    margin-top: 120px;
+}
+.main-footer{
+    /* padding: 148px 184px 148px 184px; */
+    display: flex;
+    gap: 50px;
+}
+.footer-text{
+
+}
+.kid{
+    font-size: 42px;
+    color: var(--whait);
+    display: flex;
+}
+.pizza{
+    color: var(--whait);
+    font-size: 20px;
+}
+.dolor{
+    color:var(--whait);
+    font-size: 24px;
+}
+.footer-2{
+    justify-content: left;
+}
+.color-2{
+    list-style: none;
+    justify-content: left;
+
+}
+.f{
+    font-size: 26px;
+}
+.color-1{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--whait);
+    justify-content: left;
+}
+.icon{
+    display: flex;
+    gap: 5px;
 }
