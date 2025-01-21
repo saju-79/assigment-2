@@ -1,0 +1,24 @@
+@media screen and (max-width:556px) {
+    .hide{
+        display:none;
+    }
+    .a{
+        flex-direction: column;
+       
+    }
+    .main-box{
+        flex-direction: column;
+    }
+    .main-bar{
+        flex-direction: column;
+    }
+    .main-footer{
+        flex-direction: column;
+    }
+    
+} 
+@media screen and (min-width:550px) {
+    .hide-1{
+        display: none;
+    }
+}

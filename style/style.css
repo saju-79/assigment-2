@@ -9,6 +9,9 @@
     font-weight: 700;
     font-style: normal;
   }
+  .body{
+    background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  }
   :root{
     --sky-blue:#01ACFD;
     --orange:#fea301;
@@ -22,6 +25,11 @@
    --disply-flex:disply-flex;
    --year:#202020;
 
+  }
+  .icon-max{
+    width: 30px;
+    height: 30px;
+    font-size: 35px;
   }
   .mubin{
     margin:  50px 140px 50px 140px ;
@@ -93,7 +101,7 @@
 
     font-size: 56px;
     font-weight: bold;
-    color: ;
+    
 }
 .Empowering{
     color: var(--orange);
@@ -109,6 +117,7 @@
 .button-1{
     background-color: #111111;
     color:var(--whait);
+    /* font-size: 15px; */
 }
 .a{
     display: flex;
@@ -137,24 +146,24 @@
 }
 .main-box{
     display: flex;
-    gap: 60px;
+    gap: 70px;
     padding: 80px 0px 80px 0px;
 }
 .box-1{
-width: 367px;
-height: 476px;
+width: 367.8px;
+height: 481.5px;
 border-radius: 18px;
-background-color: #DEF5FF;
+background-color: #f2f5f6;
 align-items: center;
 justify-content: center;
 text-align: center;
-padding: 20px 10px 20px;
+padding: 30px 15px 30px;
 }
 .box-2{
-background-color:#FFF4DC; 
+background-color:#f8f5ec; 
 }
 .box-3{
-    background-color:#F2E8FF ;
+    background-color:#f2eff5 ;
 }
 .rade{
     font-size: 15px;
@@ -183,6 +192,9 @@ color: #8700FF;
 .cercel{
     margin-right: 13px;
     margin-bottom: 80px;
+    color: var(--whait);
+    font-size: 44px;
+    font-weight: bolder;
     
     background-color: var(--orange);
     width: 60px;
@@ -195,8 +207,9 @@ color: #8700FF;
     height: 630px;
     width: 1160px;
     display: flex;
-    background-color: rgb(224, 219, 210);
+    background-color: rgb(233, 231, 226);
     bottom: 80px;
+    border-radius: 19px;
     
     
     gap: 19px;
@@ -262,7 +275,7 @@ color: #8700FF;
     width: 174px;
     height: 47px;
     border-radius: 47px;
-    
+   font-size: 15px; 
     
 }
 .button-3{
@@ -328,9 +341,10 @@ color: #8700FF;
     margin-top: 120px;
 }
 .main-footer{
-    /* padding: 148px 184px 148px 184px; */
+    padding: 30px 120px ;
     display: flex;
     gap: 50px;
+    justify-content: space-around;
 }
 .footer-text{
 
@@ -363,7 +377,8 @@ color: #8700FF;
     text-decoration: none;
     font-size: 20px;
     color: var(--whait);
-    justify-content: left;
+    position:relative;
+    right: 36px;
 }
 .icon{
     display: flex;
