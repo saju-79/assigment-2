@@ -13,14 +13,14 @@
     --sky-blue:#01ACFD;
     --orange:#fea301;
     --bkack-1:#111111;
-    --black-2:#000000;
+    --black-0:#000000;
     --whait:#ffffff;
     --grid:#95b226;
    --font-size:20px;
    --admission:#5d58ef;
    --color:#05d4df;
    --disply-flex:disply-flex;
-
+   --year:#202020;
 
   }
   .mubin{
@@ -39,7 +39,152 @@
     height: 50px;
     border-radius: 12px;
     padding: 10px 10px ;
+    border: none;
 
 
   }
   
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .school{
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--bkack-1);
+}
+.img{
+    display: flex;
+}
+
+
+.agcor{
+    list-style: none;
+    display: flex;
+}
+
+
+.home , .fac ,.add ,.about{
+    /* display: flex; */
+    text-decoration: none;
+    font-size: var(--font-size);
+    list-style: none;
+    margin-right: 32px;
+    
+}
+.home{
+    color: var(--orange);
+    
+    /* justify-content: space-between; */
+}
+.about{
+    color: var(--sky-blue);
+}
+.fac{
+    color: var(--color);
+}
+.add{
+    color: var(--admission);
+}
+.text{
+
+    font-size: 56px;
+    font-weight: bold;
+    color: ;
+}
+.Empowering{
+    color: var(--orange);
+}
+.small{
+    color: var(--sky-blue);
+}
+.text-2{
+    color: var(--bkack-1);
+    font-size: 20px;
+
+}
+.button-1{
+    background-color: #111111;
+    color:var(--whait);
+}
+.a{
+    display: flex;
+    width: 1158px;
+    height: 575px;
+    gap: 50px 50px;
+}
+.b{
+    width: 670px;
+    height: 331px;
+    padding:  150px  20px 150px 20px ;
+
+}
+.pic{
+    width: 468px ;
+    height: 575px;
+}
+.text-3{
+    color: var(--black-0);
+    font-size: 46px;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center ;
+    text-align: center
+}
+.main-box{
+    display: flex;
+    gap: 60px;
+    padding: 80px 0px 80px 0px;
+}
+.box-1{
+width: 367px;
+height: 476px;
+border-radius: 18px;
+background-color: #DEF5FF;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 20px 10px 20px;
+}
+.box-2{
+background-color:#FFF4DC; 
+}
+.box-3{
+    background-color:#F2E8FF ;
+}
+.rade{
+    font-size: 15px;
+    color: #64C8FF;
+}
+.rade-1{
+    color: #F0AA00;
+}
+.rade-2{
+color: #8700FF;
+}
+.year{
+    font-size: 24px;
+    color:var(--year) ;
+}
+
+.center{
+    /* display: flex; */
+}
+.gap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cercel{
+    margin-right: 13px;
+    margin-bottom: 80px;
+    
+    background-color: var(--orange);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px
+    
+}
+
+.
