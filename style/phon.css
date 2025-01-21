@@ -1,19 +1,10 @@
 @media screen and (max-width:556px) {
-    .hide{
+    .hide {
         display:none;
     }
-    .a{
+    .a , .main-bar , .main-box , .main-footer{
         flex-direction: column;
-       
-    }
-    .main-box{
-        flex-direction: column;
-    }
-    .main-bar{
-        flex-direction: column;
-    }
-    .main-footer{
-        flex-direction: column;
+        width: calc(100% - 88px);
     }
     
 } 
