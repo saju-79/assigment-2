@@ -187,4 +187,70 @@ color: #8700FF;
     
 }
 
-.
+.main-bar{
+    height: 630px;
+    width: 1160px;
+    display: flex;
+    
+
+    gap: 20px;
+}
+.main-bar-1{
+    width: 540px;
+    height: 630px;
+    background-color: rgb(247, 234, 234);
+    padding: 20px;
+    border-radius: 19px;
+
+}
+.story-1{
+    background-image: url(../B11-A2-Kids-School/assets/story-1.png);
+    width: 540px;
+    height: 337px;
+    border-radius: 16px;
+    
+
+
+}
+.main-bar-2{
+    width: 601px;
+    height: 622px;
+}
+.text-5{
+    color: var(--black-0);
+    font-size: 24px;
+}
+.button-2{
+    background-color: #3CD8E8;
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    width: 174px;
+    height: 47px;
+    border-radius: 47px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    
+}
+.button-3{
+ background-color: #95B226;
+ color: var(--whait);
+ width: 174px;
+ height: 38px;
+}
+.main-bar-3{
+    width: 290px;
+    height: 301px;
+    background-color: red;
+}
+.story-2{
+    background-image: url(../B11-A2-Kids-School/assets/story-2.png);
+    width: 291px;
+    height: 177px;
+    border-radius: 19px;
+}
+.text-7{
+    font-size: 15px;
+    color: var(--black-0);
+}
